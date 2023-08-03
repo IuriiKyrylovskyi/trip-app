@@ -1,5 +1,4 @@
-import React from 'react';
-import '../assets/styles/mainPanel.css';
+import '../assets/styles/weatherCard.css';
 
 export default function WeatherCard() {
     return (

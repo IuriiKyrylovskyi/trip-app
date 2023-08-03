@@ -1,0 +1,11 @@
+.citiesList {
+    display: flex;
+    justify-content: flex-start;
+    gap: 20px;
+}
+
+button {
+    width: 100px;
+    height: 80px;
+    border: none;
+}
