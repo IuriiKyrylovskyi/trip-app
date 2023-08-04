@@ -1,14 +1,10 @@
-import React from 'react';
 import '../assets/styles/mainPanel.css';
 import "../assets/styles/cityCard.css";
 
-
-
-
-export default function CityCard(props) {
+export default function CityCard({cityData}) {
     return (
         <>
-            {props.cityData.map((city, index) => {
+            {cityData.map((city, index) => {
                 return (
                     <div key={index} className='cardWrap' >
                         <div className='cityphotoCard'>
