@@ -1,4 +1,5 @@
 import React, { createRef, useState } from "react";
+import { useDispatch } from 'react-redux';
 import '../assets/styles/tripForm.css';
 
 export default function TripForm() {
