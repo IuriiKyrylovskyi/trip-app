@@ -1,18 +1,16 @@
-import React from 'react';
-import './App.css';
-import MainPanel from './components/MainPanel';
-import CityPanel from './components/CityPanel';
+import "./App.css";
+import MainPanel from "./components/MainPanel";
+import CityPanel from "./components/CityPanel";
+import Login from "./pages/Login";
 
 function App() {
   return (
-    <div className='app'>
-      <div className='mainSection'>
-        <MainPanel /></div>
-      <div className='cityPanel'>
-        <CityPanel /></div>
-
+    <div className="app">
+      <Login />
+      <MainPanel />
+      <CityPanel />
     </div>
-  )
+  );
 }
 
-export default App
+export default App;

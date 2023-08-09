@@ -61,8 +61,6 @@ const cityData = [
 ]
 
 
-
-
 export default function CitiesList() {
     function handleEdit() {
         setFormVisibility(!formvisibility);

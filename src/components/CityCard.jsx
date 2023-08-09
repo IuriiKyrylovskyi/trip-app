@@ -1,10 +1,10 @@
 import '../assets/styles/mainPanel.css';
 import "../assets/styles/cityCard.css";
 
-export default function CityCard({cityData}) {
+export default function CityCard(props) {
     return (
         <>
-            {cityData.map((city, index) => {
+            {props.cityData.map((city, index) => {
                 return (
                     <div key={index} className='cardWrap' >
                         <div className='cityphotoCard'>
